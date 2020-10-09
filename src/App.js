@@ -71,7 +71,7 @@ const App = () => {
 
   return (
     <div>
-        {characters.length !== 0 
+        {/* {characters.length !== 0 
           ? <select ref={selectRef} onChange={selectChar} name="characters" id="chars">
               <option value={characters[0]}>{characters[0].name}</option>
               <option value={characters[1]}>{characters[1].name}</option> 
@@ -84,11 +84,19 @@ const App = () => {
               <option value={characters[8]}>{characters[8].name}</option>
               <option value={characters[9]}>{characters[9].name}</option>
             </select>
+          <select 
+        name="form-field-name"
+        placeholder="Select a brand"
+        searchable={false}
+        value={selectedOption}
+        onChange={handleChange}
+        options={options}
+      />
           : null
         }
         {characters.map(char => {
 
-        })}
+        })} */}
 
     </div>
   );

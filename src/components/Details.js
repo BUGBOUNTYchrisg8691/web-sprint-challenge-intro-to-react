@@ -1,9 +1,8 @@
-// Write your Character component here
-import React from "react"
+import React, { useState, useEffect } from 'react'
 import styled from "styled-components"
 import { Button } from "reactstrap"
 
-export default function Character(props) {
+export default function Details(props) {
     return (
         <div>
             

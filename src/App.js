@@ -1,5 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import axios from "axios";
+import styled, { keyframes } from "styled-components"
+
+import Character from "./components/Character"
+import Details from "./components/Details"
+
+const BASE_URL = "https://swapi.dev/api/"
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out

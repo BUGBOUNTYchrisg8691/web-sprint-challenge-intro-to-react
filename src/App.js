@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import axios from "axios";
-import styled, { keyframes } from "styled-components"
+import styled, { Select, keyframes } from "styled-components"
 
 import Character from "./components/Character"
 import Details from "./components/Details"
